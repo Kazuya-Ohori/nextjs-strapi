@@ -1,11 +1,10 @@
 {
   "kind": "collectionType",
-  "collectionName": "blogs",
+  "collectionName": "posts",
   "info": {
-    "singularName": "blog",
-    "pluralName": "blogs",
-    "displayName": "blog",
-    "description": ""
+    "singularName": "post",
+    "pluralName": "posts",
+    "displayName": "Post"
   },
   "options": {
     "draftAndPublish": true
@@ -15,7 +14,7 @@
     "title": {
       "type": "string"
     },
-    "body": {
+    "contents": {
       "type": "blocks"
     }
   }
