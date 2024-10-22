@@ -12,7 +12,7 @@ apps/front
 ├── project.json
 ├── public
 │   └── favicon.ico
-├── specs
+├── specs ... テスト
 │   └── index.spec.tsx
 ├── src
 │   ├── app
@@ -23,22 +23,22 @@ apps/front
 │   │       ├── [id]
 │   │       │   └── page.tsx
 │   │       └── page.tsx
-│   ├── components
-│   │   └── __empty__
-│   ├── config
-│   │   └── __empty__
-│   ├── features
-│   │   └── __empty__
-│   ├── hooks
-│   │   └── __empty__
-│   ├── libs
+│   ├── components ... 汎用コンポーネント
+│   │
+│   ├── config ... アプリケーション全体で利用する設定ファイル
+│   │
+│   ├── features ... 汎用機能ベースモジュール
+│   │
+│   ├── hooks ... 汎用フック
+│   │
+│   ├── libs ... アプリケーション全体で利用する設定ファイル
 │   │   └── env.ts
-│   ├── styles
-│   │   └── __empty__
-│   ├── types
-│   │   └── __empty__
-│   └── utils
-│       └── __empty__
+│   ├── styles ... 共有スタイル
+│   │
+│   ├── types ... 共有型
+│   │
+│   └── utils ... 汎用ユーティリティ関数
+│
 ├── tailwind.config.js
 ├── tsconfig.json
 └── tsconfig.spec.json
